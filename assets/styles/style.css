@@ -115,4 +115,20 @@ nav ul {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  main {
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+  }
 
+  main aside {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    justify-content: center;
+  }
+  
+}
